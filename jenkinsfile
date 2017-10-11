@@ -17,7 +17,18 @@ node{
                 useRepository:'formation-test-1',
                 quickFilterEnabled: false],
        
-        
+        [$class: 'GitParameterDefinition',
+                name: 'gitBranchCore',
+                description: 'description', 
+                type:'Branch',
+                branch: '', 
+                branchFilter: '.*', 
+                tagFilter:'*',
+                sortMode:'NONE',
+                defaultValue: '',
+                selectedValue:'NONE',
+                useRepository:'formation-test-2',
+                quickFilterEnabled: false]
    
       ])
     
