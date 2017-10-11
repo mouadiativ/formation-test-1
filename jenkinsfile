@@ -3,6 +3,19 @@ node{
    checkout scm
    properties([ 
     parameters([
+       [$class: 'GitParameterDefinition',
+                name: 'gitBranchCustomer',
+                description: 'description', 
+                type:'Branch',
+                branch: '', 
+                branchFilter: '.*', 
+                tagFilter:'*',
+                sortMode:'NONE',
+                defaultValue: '',
+                selectedValue:'NONE',
+                useRepository:'formation-test-2',
+                quickFilterEnabled: false],
+       ]
         [$class: 'GitParameterDefinition',
                 name: 'gitBranchCore',
                 description: 'description', 
@@ -16,19 +29,7 @@ node{
                 useRepository:'formation-test-1',
                 quickFilterEnabled: false],
    
-      [$class: 'GitParameterDefinition',
-                name: 'gitBranchCustomer',
-                description: 'description', 
-                type:'Branch',
-                branch: '', 
-                branchFilter: '.*', 
-                tagFilter:'*',
-                sortMode:'NONE',
-                defaultValue: '',
-                selectedValue:'NONE',
-                useRepository:'formation-test-2',
-                quickFilterEnabled: false],
-       ])
+      )
     
       
      ])
