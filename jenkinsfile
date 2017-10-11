@@ -9,12 +9,12 @@ node{
                 description: 'description', 
                 type:'Branch',
                 branch: '', 
-                branchFilter: 'origin/.*', 
+                branchFilter: '.*', 
                 tagFilter:'*',
                 sortMode:'NONE',
                 defaultValue: '',
                 selectedValue:'NONE',
-                
+                useRepository:'formation-test-1',
                 quickFilterEnabled: false],
        
         [$class: 'GitParameterDefinition',
@@ -22,12 +22,12 @@ node{
                 description: 'description', 
                 type:'Branch',
                 branch: '', 
-                branchFilter: 'origin1.*', 
+                branchFilter: '*', 
                 tagFilter:'*',
                 sortMode:'NONE',
                 defaultValue: '',
                 selectedValue:'NONE',
-                
+                useRepository:'formation-test-2',
                 quickFilterEnabled: false],
    
       ])
