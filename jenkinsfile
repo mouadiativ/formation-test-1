@@ -28,7 +28,7 @@ node{
                 defaultValue: '',
                 selectedValue:'NONE',
                 useRepository:'formation-test-2',
-                quickFilterEnabled: false]
+                quickFilterEnabled: false],
    
       ])
     
