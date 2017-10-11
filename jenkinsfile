@@ -15,7 +15,7 @@ node{
                 selectedValue:'NONE',
                 useRepository:'formation-test-2',
                 quickFilterEnabled: false],
-       ]
+       
         [$class: 'GitParameterDefinition',
                 name: 'gitBranchCore',
                 description: 'description', 
@@ -27,9 +27,9 @@ node{
                 defaultValue: '',
                 selectedValue:'NONE',
                 useRepository:'formation-test-1',
-                quickFilterEnabled: false],
+                quickFilterEnabled: false]
    
-      )
+      ])
     
       
      ])
