@@ -9,7 +9,7 @@ node{
                 description: 'description', 
                 type:'Branch',
                 branch: '', 
-                branchFilter: 'origin.*', 
+                branchFilter: 'origin/.*', 
                 tagFilter:'*',
                 sortMode:'NONE',
                 defaultValue: '',
