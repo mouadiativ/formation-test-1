@@ -27,7 +27,7 @@ node{
                 sortMode:'NONE',
                 defaultValue: '',
                 selectedValue:'NONE',
-                useRepository:'formation-test-1',
+                useRepository:'formation-test-2',
                 quickFilterEnabled: false]
    
       ])
