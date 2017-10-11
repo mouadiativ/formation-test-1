@@ -14,7 +14,7 @@ node{
                 sortMode:'NONE',
                 defaultValue: '',
                 selectedValue:'NONE',
-                
+                useRepository:'origin',
                 quickFilterEnabled: false],
        
         [$class: 'GitParameterDefinition',
@@ -27,7 +27,7 @@ node{
                 sortMode:'NONE',
                 defaultValue: '',
                 selectedValue:'NONE',
-                
+                useRepository:'origin1',
                 quickFilterEnabled: false],
    
       ])
