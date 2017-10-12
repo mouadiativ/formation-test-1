@@ -9,7 +9,7 @@ node{
                      description: ' branches projet 1',
                      type:'Branch',
                      branch: '',
-                     branchFilter: '',
+                     branchFilter: '.*',
                      tagFilter:'*',
                      sortMode:'NONE',
                      defaultValue: '',
@@ -22,13 +22,13 @@ node{
                      description: 'branches projet 2',
                      type:'Branch',
                      branch: '',
-                     branchFilter: '',
+                     branchFilter: '.*',
                      tagFilter:'*',
                      sortMode:'NONE',
                      defaultValue: '',
                      selectedValue:'NONE',
                      useRepository:'formation-test-2',
-                     quickFilterEnabled: false]
+                     quickFilterEnabled: false],
 
             ])
 
