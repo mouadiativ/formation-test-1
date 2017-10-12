@@ -47,6 +47,11 @@ node{
             println "Property: $Mode_de_livraison"
         }
     }
+    
 
-    //stage('checkout') {git branch: "master", credentialsId: '2d43b72d-fadc-446c-aaff-050a904b8ba9', url: 'https://github.com/mouadiativ/formation-test-1.git'}
+    stage('checkout') {
+        git branch: ${props.getProperty('gitBranchCustomer')}, credentialsId: '2d43b72d-fadc-446c-aaff-050a904b8ba9', url: 'https://github.com/mouadiativ/formation-test-1.git'
+        git branch: ${props.getProperty('gitBranchCore')}, credentialsId: '2d43b72d-fadc-446c-aaff-050a904b8ba9', url: 'https://github.com/mouadiativ/formation-test-2.git'
+
+    }
 }
