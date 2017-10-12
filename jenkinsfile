@@ -6,7 +6,7 @@ node{
     parameters([
        [$class: 'GitParameterDefinition',
                 name: 'gitBranchCustomer',
-                description: 'description', 
+                description: ' branches projet 1', 
                 type:'Branch',
                 branch: '', 
                 branchFilter: '.*', 
@@ -19,7 +19,7 @@ node{
        
         [$class: 'GitParameterDefinition',
                 name: 'gitBranchCore',
-                description: 'description', 
+                description: 'branches projet 2', 
                 type:'Branch',
                 branch: '', 
                 branchFilter: '.*', 
