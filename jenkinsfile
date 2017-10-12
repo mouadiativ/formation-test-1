@@ -55,7 +55,7 @@ node{
         String[] tab ="${params.gitBranchCustomer}".split('/')
         String[] tab1 ="${params.gitBranchCore}".split('/')
         def t = tab[1]
-        def t1 = tab[1]
+        def t1 = tab1[1]
         echo "${t}"
        git branch: "${t}", credentialsId: '2d43b72d-fadc-446c-aaff-050a904b8ba9', url: 'https://github.com/mouadiativ/formation-test-1.git'
        git branch: "${t1}", credentialsId: '2d43b72d-fadc-446c-aaff-050a904b8ba9', url: 'https://github.com/mouadiativ/formation-test-2.git'
