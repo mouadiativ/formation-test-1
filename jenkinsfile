@@ -52,7 +52,7 @@ node{
     stage('checkout') {
         echo "${params.gitBranchCustomer}"
         echo "${gitBranchCore}"
-        String tab[]="${params.gitBranchCustomer}".split('/')
+        string [] tab ="${params.gitBranchCustomer}".split('/')
         
         echo "${tab}"
        git branch: "${params.gitBranchCustomer}", credentialsId: '2d43b72d-fadc-446c-aaff-050a904b8ba9', url: 'https://github.com/mouadiativ/formation-test-1.git'
