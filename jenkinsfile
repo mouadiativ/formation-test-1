@@ -53,6 +53,6 @@ node{
         //git branch: '$gitBranchCustomer', credentialsId: '2d43b72d-fadc-446c-aaff-050a904b8ba9', url: 'https://github.com/mouadiativ/formation-test-1.git'
       //  git branch: '$gitBranchCore', credentialsId: '2d43b72d-fadc-446c-aaff-050a904b8ba9', url: 'https://github.com/mouadiativ/formation-test-2.git'
         echo 'gitBranchCustomer'
-        echo $gitBranchCore
+        echo ${gitBranchCore}
     }
 }
