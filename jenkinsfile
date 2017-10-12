@@ -55,7 +55,7 @@ node{
         //def tab []="${params.gitBranchCustomer}".split('/')
         //def tab1 []=tab [1]
         //echo "${tab [1]}"
-       git branch: ""${params.gitBranchCustomer}.split('/')", credentialsId: '2d43b72d-fadc-446c-aaff-050a904b8ba9', url: 'https://github.com/mouadiativ/formation-test-1.git'
+       git branch: "${params.gitBranchCustomer}.split('/')", credentialsId: '2d43b72d-fadc-446c-aaff-050a904b8ba9', url: 'https://github.com/mouadiativ/formation-test-1.git'
        git branch: "${gitBranchCore}", credentialsId: '2d43b72d-fadc-446c-aaff-050a904b8ba9', url: 'https://github.com/mouadiativ/formation-test-2.git'
         
      
