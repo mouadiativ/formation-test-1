@@ -52,8 +52,8 @@ node{
     stage('checkout') {
         echo "${params.gitBranchCustomer}"
         echo "${gitBranchCore}"
-        String[] tab ="${params.gitBranchCustomer}".split('/')
-        String[] tab1 ="${params.gitBranchCore}".split('/')
+        String[] tab ="${params.gitBranchCustomer}".split('origin/')
+        String[] tab1 ="${params.gitBranchCore}".split('origin1/')
         def t = tab[1]
         def t1 = tab1[1]
         echo "${t}"
